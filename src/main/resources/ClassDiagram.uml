@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="920.0" y="876.0">tasks.View</node>
+    <node x="453.0" y="0.0">tasks.Task</node>
+    <node x="715.0" y="0.0">tasks.TaskIO</node>
+    <node x="0.0" y="995.0">tasks.Model</node>
+    <node x="0.0" y="278.0">tasks.LinkedTaskList</node>
+    <node x="0.0" y="876.0">tasks.Tasks</node>
+    <node x="214.0" y="278.0">tasks.ArrayTaskList</node>
+    <node x="467.0" y="876.0">tasks.Controller</node>
+    <node x="5.0" y="668.0">tasks.LinkedTaskList.Node</node>
+    <node x="107.0" y="0.0">tasks.TaskList</node>
+    <node x="708.0" y="876.0">tasks.MVCMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="tasks.ArrayTaskList" target="tasks.TaskList">
+      <point x="0.0" y="-170.0" />
+      <point x="311.0" y="253.0" />
+      <point x="252.5" y="253.0" />
+      <point x="48.5" y="114.0" />
+    </edge>
+    <edge source="tasks.LinkedTaskList.Node" target="tasks.LinkedTaskList">
+      <point x="0.0" y="-81.5" />
+      <point x="0.0" y="170.0" />
+    </edge>
+    <edge source="tasks.LinkedTaskList" target="tasks.TaskList">
+      <point x="0.0" y="-170.0" />
+      <point x="97.0" y="253.0" />
+      <point x="155.5" y="253.0" />
+      <point x="-48.5" y="114.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6312267657992565" x="529.0" y="662.5" />
+  <SelectedNodes>
+    <node>tasks.View</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
